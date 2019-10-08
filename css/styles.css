@@ -1,0 +1,17 @@
+body {
+    color: #696060;
+    background-color: floralwhite;
+
+    font-family: avenir;
+}
+
+.red-span {
+    color: darkred;
+}
+
+.centered {
+    padding: 10px 10px 10px 10px ;
+    border: 1.5px solid;
+    margin: 10px auto 10px auto;
+    width: 80%;
+}
