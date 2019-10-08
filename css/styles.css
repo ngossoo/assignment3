@@ -10,8 +10,22 @@ body {
 }
 
 .centered {
-    padding: 10px 10px 10px 10px ;
-    border: 1.5px solid;
+    padding: 5px 5px 5px5px;
+
     margin: 10px auto 10px auto;
     width: 80%;
 }
+
+header nav a {
+    color: darkseagreen;
+    font-size: 16pt;
+}
+
+a:visited {
+    color: darkolivegreen;
+}
+
+main p a {
+    color: darkseagreen;
+}
+ul, ol {font-size: 14pt}
