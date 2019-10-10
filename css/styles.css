@@ -29,3 +29,5 @@ main p a {
     color: darkseagreen;
 }
 ul, ol {font-size: 14pt}
+
+@media screen and (max-width: 30rem)
