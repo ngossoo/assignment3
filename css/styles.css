@@ -10,7 +10,7 @@ body {
 }
 
 .centered {
-    padding: 5px 5px 5px 5px;
+/*    padding: 5px 5px 5px 5px;*/
 
     margin: 10px auto 10px auto;
     width: 80%;
@@ -24,10 +24,38 @@ header nav a {
 a:visited {
     color: darkolivegreen;
 }
+ul {
+    padding-left: 0;
+}
+
+header nav {
+    flex: 1;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav li {
+    list-style-type: none;
+    padding: 1em;
+}
+
 
 main p a {
     color: darkseagreen;
 }
-ul, ol {font-size: 14pt}
 
-@media screen and (max-width: 30rem)
+ul,
+ol {
+    font-size: 14pt
+}
+
+@media screen and (max-width: 30rem) {
+
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
