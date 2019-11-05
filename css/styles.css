@@ -10,7 +10,7 @@ body {
 }
 
 .centered {
-/*    padding: 5px 5px 5px 5px;*/
+    /*    padding: 5px 5px 5px 5px;*/
 
     margin: 10px auto 10px auto;
     width: 80%;
@@ -24,12 +24,14 @@ header nav a {
 a:visited {
     color: darkolivegreen;
 }
+
 ul {
     padding-left: 0;
 }
 
 header nav {
-    flex: 1;
+display: flex;
+
 }
 
 header nav ul {
@@ -59,3 +61,4 @@ ol {
     footer {
         flex-direction: column;
     }
+}
