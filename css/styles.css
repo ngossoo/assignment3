@@ -25,25 +25,30 @@ a:visited {
     color: darkolivegreen;
 }
 
-ul {
-    padding-left: 0;
-}
-
 header nav {
-display: flex;
-
+    display: flex;
 }
 
 header nav ul {
-    display: flex;
+
+    flex: 1;
     justify-content: flex-end;
+
+
 }
 
 header nav li {
     list-style-type: none;
-    padding: 1em;
+
 }
 
+.maindiv1 {
+    flex: 1;
+}
+
+.maindiv2 {
+    flex: 1;
+}
 
 main p a {
     color: darkseagreen;
