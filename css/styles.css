@@ -30,7 +30,7 @@ header nav {
 }
 
 header nav ul {
-
+    display: flex;
     flex: 1;
     justify-content: flex-end;
 
@@ -39,11 +39,17 @@ header nav ul {
 
 header nav li {
     list-style-type: none;
+    padding: inherit
+}
 
+main {
+    display:
 }
 
 .maindiv1 {
+    display: flex
     flex: 1;
+    justify-content: center
 }
 
 .maindiv2 {
